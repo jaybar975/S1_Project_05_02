@@ -16,8 +16,9 @@
 /* Grid Rows Styles */
 /* This sets the div element with the a class of row with a width of 100% and a clear of both */
 div.row {
-    width: 100%;
     clear: both;
+    width: 100%;
+
 }
 
 /* This sets the div element with a class called row and a psuedo class called after with a clear of both, content of nothing, and a display of table */
@@ -88,6 +89,7 @@ div.column80 {
 div.container,
 div.row,
 div[class^="column"],
-div[class^="cell"] div.cell a {
+div.cell,
+div.cell a {
     box-sizing: border-box;
 }
